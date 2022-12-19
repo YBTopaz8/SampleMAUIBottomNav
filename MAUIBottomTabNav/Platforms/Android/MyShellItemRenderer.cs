@@ -12,8 +12,7 @@ using Android.Content.Res;
 using Android.Graphics.Drawables;
 using Orientation = Android.Widget.Orientation;
 
-namespace MAUIBottomTabNav
-{
+namespace MAUIBottomTabNav;
     public class MyShellRenderer : ShellRenderer
     {
         protected override IShellItemRenderer CreateShellItemRenderer(ShellItem shellItem)
@@ -173,5 +172,5 @@ namespace MAUIBottomTabNav
             return base.OnItemSelected(item);
         }
     }
-}
+
 #endif

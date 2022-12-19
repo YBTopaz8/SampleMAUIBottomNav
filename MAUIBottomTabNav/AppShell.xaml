@@ -8,18 +8,22 @@
     >
 
     <TabBar>
-        <ShellContent Title="Home Page"
-                      ContentTemplate="{DataTemplate local:MainPage}"/>
-        <ShellContent Title="First Page"
-                      ContentTemplate="{DataTemplate views:FirstPage}"/>
         <ShellContent Title="Second Page"
                       ContentTemplate="{DataTemplate views:SecondPage}"/>
+        <Tab Title="Tabbed Page">
+            <ShellContent Title="Home Page"
+                          ContentTemplate="{DataTemplate views:MainPage}"/>
+            <ShellContent Title="First Page"
+                          ContentTemplate="{DataTemplate views:FirstPage}"/>
+        </Tab>
         <ShellContent Title="Third Page"
                       ContentTemplate="{DataTemplate views:ThirdPage}"/>
-        <ShellContent Title="Fourth Page"
-                      ContentTemplate="{DataTemplate views:FourthPage}"/>
-        <ShellContent Title="Fifth Page"
-                      ContentTemplate="{DataTemplate views:FifthPage}"/>
+            <ShellContent Title="Fourth Page"
+                          ContentTemplate="{DataTemplate views:FourthPage}"/>
+            <ShellContent Title="Fifth Page"
+                          ContentTemplate="{DataTemplate views:FifthPage}"/>
+        <ShellContent Title="More Page"
+                      ContentTemplate="{DataTemplate views:ThirdPage}"/>
     </TabBar>
     
 
